@@ -1,10 +1,13 @@
 import './App.css'
-import { Button } from './components/ui/button'
+import Login from './pages/Login.jsx'
 
 function App() {
 
   return (
-    <Button>Let's build DevNgyxn Udemy</Button>
+   <div>
+    <Login></Login>
+   </div>
+
   )
 }
 
