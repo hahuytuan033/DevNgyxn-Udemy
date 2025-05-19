@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { motion } from 'framer-motion';
 import { Button } from "@/components/ui/button"
 import {
     Card,
@@ -149,7 +150,7 @@ const Login = () => {
                             </div>
                         </CardContent>
                         <CardFooter>
-                            <Button>Sign Up</Button>
+                            <Button style={{ backgroundColor: '#a259ff', color: '#fff' }}>Sign Up</Button>
                         </CardFooter>
                     </Card>
                 </TabsContent>
@@ -183,7 +184,7 @@ const Login = () => {
                             </div>
                         </CardContent>
                         <CardFooter>
-                            <Button>Login</Button>
+                            <Button style={{ backgroundColor: '#a259ff', color: '#fff' }}>Login</Button>
                         </CardFooter>
                     </Card>
                 </TabsContent>
